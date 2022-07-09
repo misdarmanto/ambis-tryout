@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Mari Study",
+    "slug": "mari-study", 
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1E90FF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode" : 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1E90FF"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-8095237298596091~3314525522"
+      },
+      "package": "com.misdar.maristudy"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
